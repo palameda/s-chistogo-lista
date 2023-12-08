@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="fonts/fonts.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body class="body">
+  <body>
     <header class="content-section header content-section-dark">
-      <a class="header__logo">
+      <a>
         <img class="header__logo-image" src="images/logo.svg" alt="Вёрстка" />
       </a>
-      <nav class="header__menu">
+      <nav>
         <ul class="header__menu-list">
-          <li class="header__menu-item">
-            <a class="header__menu-link header__menu-link-first" href="#0">
+          <li>
+            <a class="header__menu-link header__menu-link_active" href="#">
                 Главная
             </a>
           </li>
-          <li class="header__menu-item nav-item-ul">
-            <a class="header__menu-link" href="#0">О нас</a>
+          <li>
+            <a class="header__menu-link" href="#">О нас</a>
           </li>
-          <li class="header__menu-item nav-item-ul">
-            <a class="header__menu-link" href="#0">Контакты</a>
+          <li>
+            <a class="header__menu-link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -31,10 +31,10 @@
 
     <main>
       <section class="cover content-section content-section-dark">
-        <h1 class="cover_title">
+        <h1>
           <span class="cover__accent-span text-left">С</span>
           <span class="cover__accent-span text-center">чистого</span>
-          <span class="cover__accent-span text-right cover__title-bottom">
+          <span class="cover__accent-span text-right">
             листа
           </span>
         </h1>
@@ -65,11 +65,11 @@
       </section>
 
       <section class="article content-section content-section-yellow">
-        <h2 class="article__title">
+        <h2>
           <span class="article__accent-span text-right">
             Почему чистый лист
             </span>
-          <span class="article__accent-span text-left em-dash-fix">
+          <span class="article__accent-span text-left">
             &#8212; такой cтрашный?
           </span>
         </h2>
@@ -83,30 +83,26 @@
         </p>
         <ul class="content-section__list">
           <li class="content-section__list-item">
-            <span class="content-section__list-accent">
-                Неуверенность в результате.
-            </span>
+            <span>Неуверенность в результате.</span>
             И в том, что его вообще можно достичь. Ведь как можно быть
             уверенным, что проводишь всю работу не впустую? Что доведёшь дело до
             конца? А тут, пока не начал, не надо и заканчивать.
           </li>
           <li class="content-section__list-item">
-            <span class="content-section__list-accent">Страх критики.</span>
+            <span>Страх критики.</span>
             Если работу будет кто-то оценивать, то уже на самых ранних этапах мы
             смотрим на неё глазами этого человека. Представляем, какие
             недостатки в ней можно найти. После этого желание что-то делать
             сразу пропадает.
           </li>
           <li class="content-section__list-item">
-            <span class="content-section__list-accent">Перфекционизм.</span>
+            <span>Перфекционизм.</span>
             Когда кажется, что работа не будет сделана идеально, будто бы нет
             смысла её и начинать. В такие моменты мы можем забыть, что с первого
             раза что-то получается довольно редко.
           </li>
           <li class="content-section__list-item">
-            <span class="content-section__list-accent">
-                Отсутствие мотивации.
-            </span>
+            <span>Отсутствие мотивации.</span>
             Как долгосрочной, так и краткосрочной. Например, если дедлайн только
             через неделю, можно посидеть пару часов, рассматривая узоры на
             обоях, — времени ещё вагон. Или прогуливать уроки химии в школе,
@@ -114,9 +110,7 @@
             «Мстителей» хочется ещё больше.
           </li>
           <li class="content-section__list-item">
-            <span class="content-section__list-accent">
-                Недостаток информации.
-            </span>
+            <span>Недостаток информации.</span>
             Начинать что-то особенно сложно, если вы новичок в теме и только
             разбираетесь, что к чему. Вам может казаться, что каждая строчка —
             глупость, и вообще всё, что вы сделаете, — будет неправильно.
@@ -125,7 +119,7 @@
       </section>
 
       <section class="how-to article content-section content-section-dark">
-        <h2 class="article__title">
+        <h2>
           <span class="article__accent-span text-right">
             Как всё-таки начать
           </span>
@@ -137,19 +131,15 @@
           из-за совокупности нескольких факторов. Вот что может помочь:
         </p>
         <ul class="cards-list">
-          <li class="cards-list__item">
+          <li>
             <div class="card card-dark">
               <div class="card__author">
-                <div
-                  role="img"
-                  aria-label="Polyarinov portrait photo"
-                  class="card__author-photo card__author-polyarinov"
-                ></div>
+                <img class="card__author-photo" src="./images/polyarinov.png" alt="author_photo">
                 <p class="card__author-name">Алексей Поляринов</p>
               </div>
               <div class="card__content">
                 <h3 class="card__title">Начать любыми словами</h3>
-                <p class="card__text">
+                <p>
                   Любыми — без шуток. Если не верите нам, посмотрите, например,
                   чем открывается эссе Алексея Поляринова «Чарли Кауфман:
                   расширение пространства». Можно и менее радикально. Главное,
@@ -161,13 +151,13 @@
               </div>
             </div>
           </li>
-          <li class="cards-list__item">
+          <li>
             <div class="card card-yellow">
               <div class="card__content">
                 <h3 class="card__title">
                   Поставить перед собой рамку для фотографии
                 </h3>
-                <p class="card__text">
+                <p>
                   Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения,
                   что предстоит работа над большой и сложной задачей, может
                   пропасть всякое желание за неё браться. В такие моменты хорошо
@@ -178,19 +168,15 @@
               </div>
             </div>
           </li>
-          <li class="cards-list__item">
+          <li>
             <div class="card card-dark">
               <div class="card__author">
-                <div
-                  class="card__author-photo card__author-bunin"
-                  role="img"
-                  aria-label="Bunin portrait photo"
-                ></div>
+                <img class="card__author-photo"  src="./images/bunin.png" alt="bunin_portrait">
                 <p class="card__author-name">Иван Бунин</p>
               </div>
               <div class="card__content">
                 <h3 class="card__title">Сделать из задачи рутину</h3>
-                <p class="card__text">
+                <p>
                   «Писать стихи нужно каждый день, подобно тому как скрипач или
                   пианист непременно должен каждый день без пропусков по
                   нескольку часов играть на своём инструменте. В противном
@@ -211,10 +197,10 @@
       <p class="footer__copy">© VЁRSTKA</p>
       <ul class="footer__links">
         <li>
-          <a class="footer__link" target="_blank" href="https://vk.ru">ВК</a>
+          <a class="footer__link" target="_blank" href="https://vk.com">ВК</a>
         </li>
         <li>
-          <a class="footer__link" target="_blank" href="https://www.youtube.ru">Ютуб</a>
+          <a class="footer__link" target="_blank" href="https://www.youtube.com">Ютуб</a>
         </li>
       </ul>
     </footer>
